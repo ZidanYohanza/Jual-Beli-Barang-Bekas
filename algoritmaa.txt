@@ -1,0 +1,64 @@
+- tampilan user/admin
+admin
+- masukin uss sama pass
+- bisa update sama liat transaksi
+- yang di update semua data barang, tampilin semua list barang
+- update bisa memilih apa yang ingin diupdate
+
+
+user
+- jual/beli/keranjang barang
+
+jual
+- masukin data barang, dan data penjual
+- data barang berupa : nama, harga, deskripsi, kondisi
+- data penjual berupa : nama, telp, alamat
+- tunggu barangmu dibeli seseorang
+- kembali ke menu awal
+
+beli
+- menampilkan semua barang(nama, kondisi) yang terdaftar untuk dijual
+- pembeli memilih barang
+- bakal keluar deskripsi barang dan data penjual 
+- dimasukin ke keranjang
+- meminta kepastian untuk keranjang atau beli lagi
+- kalau beli lagi, bakal lompat ke menu beli
+- kalau keranjang, yaudah keranjang
+
+keranjang
+- kalau kosong, blg kosong
+- tampilin semua barang yang ada dikeranjang
+- pilih untuk hapus, bayar, tambah
+- kalau hapus : barang balik ke list jual, terhapus di keranjang
+- kalau tambah : balik ke menu beli
+
+bayar
+- masukin data pembeli
+- nampilin data barang yang akan dibayar kayak pak akmal
+- total harga
+- pembayaran (masukin uang)
+- kalau kurang looping sampai lunas
+- kalau lebih kasih kembalian
+- terima kasih sudah belanja
+- kembali ke menu awal
+- data masuk ke list transaksi
+
+~SELESAI~
+
+revisi
+- menyimpan data barang di file txt
+- menambahkan admin 
+- admin cuma satu, memiliki akun, bisa liat daftar transaksi, update barang
+- stack : keranjang, list transaksi
+- queue : list barang yang dijual
+
+-tampilan awal !
+-jual 
+-beli 
+-keranjang
+-bayar
+-admin
+
+- beli, keranjang ~varian
+- jual, admin ~zidan
+- tampilan awal, bayar ~hamud
